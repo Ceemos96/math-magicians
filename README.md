@@ -1,4 +1,4 @@
-# Leaderboard project
+# Math magicians
 
 > Math magicians is a React based SPA that executes simple mathematics calculations and displays random mathematics related quotes. 
 
