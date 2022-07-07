@@ -9,11 +9,12 @@
   background-color: gray;
   font-weight: 600;
   color: white;
-
+  display: flex;
+  justify-content: flex-end;
 }
 
 button {
- padding: 2rem;
+  padding: 2rem;
 }
 
 .operators-and-digits {
