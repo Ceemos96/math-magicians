@@ -1,0 +1,30 @@
+.calculator {
+  width: 400px;
+  font-size: 30px;
+  margin: auto;
+}
+
+.output {
+  padding: 2rem;
+  background-color: gray;
+  font-weight: 600;
+  color: white;
+
+}
+
+button {
+ padding: 2rem;
+}
+
+.operators-and-digits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.colored {
+  background-color: rgb(245 145 62);
+}
+
+.wide {
+  grid-column: span 2;
+}
