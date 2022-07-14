@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+/* calulator styles */
+
+.calculator-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
 .calculator {
   width: 400px;
   font-size: 30px;
@@ -34,4 +42,33 @@ button {
 
 .wide {
   grid-column: span 2;
+}
+
+/* nav styles */
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  border: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+.heading-text {
+  margin: 16px 0;
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
 }
