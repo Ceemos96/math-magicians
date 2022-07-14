@@ -17,6 +17,9 @@ const Calculator = () => {
   const { total, next } = value;
   return (
     <div className="calculator-wrapper">
+      <div className="calc-header">
+        <h2>Lets do some Math!</h2>
+      </div>
       <div className="calculator">
         <div className="output">
           {next || total || 0}
