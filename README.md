@@ -15,7 +15,8 @@
 - Babel
 
 ## Link to project online
-- [Online Version](https://ceemos96.github.io/math-magicians/)
+- [Online Version deployed on Heroku](https://math-magicians-ceemos.herokuapp.com/)
+- [Online Version deployed on Netlify](https://radiant-lolly-8f018e.netlify.app/)
 
 ## Getting Started
 
